@@ -21,39 +21,263 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa3fb4cd-f040-407e-9d59-cad3988634f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/javacsv.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/ant.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/proguard-project.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/tests.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/raw/sound_sample_sin_1000.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javacsv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/Application.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/ApplicationListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/Audio.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/Files.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/Game.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/Gdx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/Graphics.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/Input.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/InputAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/InputMultiplexer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/InputProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/Preferences.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/Screen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/Version.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/AudioDevice.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/AudioRecorder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/Music.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/Sound.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/analysis/AudioTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/analysis/DFT.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/analysis/FFT.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/analysis/FourierTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/analysis/KissFFT.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/analysis/NativeFFT.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/analysis/ThresholdFunction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/io/Decoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/io/Mpg123Decoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/audio/io/VorbisDecoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/files/FileHandle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/files/FileHandleStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/Camera.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/FPSLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/GL10.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/GL11.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/GL20.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/GLCommon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/GLU.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/Mesh.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/OrthographicCamera.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/PerspectiveCamera.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/Pixmap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/Texture.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/TextureData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/TextureDict.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/TextureRef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/VertexAttribute.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/VertexAttributes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/Animation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/BitmapFont.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/BitmapFontCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/Gdx2DPixmap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/ParticleEffect.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/ParticleEmitter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/Sprite.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/SpriteBatch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/SpriteCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/TextureAtlas.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/TextureRegion.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/tiled/TileAtlas.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/tiled/TileMapRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/tiled/TileSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/tiled/TiledLayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/tiled/TiledLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/tiled/TiledMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/tiled/TiledObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g2d/tiled/TiledObjectGroup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/Animation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/Animator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/Material.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/keyframed/Keyframe.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/keyframed/KeyframeAnimation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/keyframed/KeyframeAnimator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/keyframed/KeyframedModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/loaders/ModelLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/loaders/md5/MD5Animation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/loaders/md5/MD5AnimationInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/loaders/md5/MD5Animator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/loaders/md5/MD5Jni.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/loaders/md5/MD5Joints.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/loaders/md5/MD5Loader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/loaders/md5/MD5Mesh.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/loaders/md5/MD5Model.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/loaders/md5/MD5Quaternion.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/loaders/md5/MD5Renderer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/g3d/loaders/obj/ObjLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/glutils/FrameBuffer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/glutils/ImmediateModeRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/glutils/IndexBufferObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/glutils/IndexBufferObjectSubData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/glutils/IndexData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/glutils/ShaderProgram.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/glutils/VertexArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/glutils/VertexBufferObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/glutils/VertexBufferObjectSubData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/graphics/glutils/VertexData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/input/RemoteInput.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/input/RemoteSender.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/CatmullRomSpline.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/Circle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/EarClippingTriangulator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/Frustum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/Intersector.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/MathUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/Matrix3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/Matrix4.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/Plane.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/Quaternion.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/Rectangle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/Vector2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/Vector3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/WindowedMean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/collision/BoundingBox.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/collision/Ray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/collision/Segment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/math/collision/Sphere.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/Body.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/BodyDef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/Box2DDebugRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/CircleShape.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/Contact.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/ContactFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/ContactListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/DestructionListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/Filter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/Fixture.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/FixtureDef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/Joint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/JointDef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/JointEdge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/MassData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/PolygonShape.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/QueryCallback.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/RayCastCallback.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/Shape.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/Transform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/World.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/WorldManifold.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/DistanceJoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/DistanceJointDef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/FrictionJoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/FrictionJointDef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/GearJoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/GearJointDef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/LineJoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/LineJointDef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/MouseJoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/MouseJointDef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/PrismaticJoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/PrismaticJointDef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/PulleyJoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/PulleyJointDef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/RevoluteJoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/RevoluteJointDef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/WeldJoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/physics/box2d/joints/WeldJointDef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/Action.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/Actor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/AnimationAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/CompositeAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/Group.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/Interpolator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/Layout.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/OnActionCompleted.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/Stage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/TemporalAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/ActionResetingPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/Delay.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/FadeIn.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/FadeOut.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/FadeTo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/Forever.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/MoveBy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/MoveTo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/Parallel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/Remove.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/Repeat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/RotateBy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/RotateTo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/ScaleTo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actions/Sequence.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actors/BoundGroup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actors/Button.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actors/FastImage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actors/Image.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actors/Label.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/actors/LinearGroup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/interpolators/AccelerateDecelerateInterpolator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/interpolators/AccelerateInterpolator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/interpolators/AnticipateInterpolator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/interpolators/DecelerateInterpolator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/interpolators/LinearInterpolator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/scenes/scene2d/interpolators/OvershootInterpolator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/Array.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/AtomicQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/Base64Coder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/BufferUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/ComparableTimSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/Disposable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/FloatArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/GdxNativesLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/GdxRuntimeException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/IdentityMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/IntArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/IntMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/LittleEndianInputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/LongArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/LongMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/ObjectMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/PauseableThread.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/Pool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/PooledLinkedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/ScreenUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/Sort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/TimSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/Xml.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/Xml.rl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/arial-15.fnt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/badlogic/gdx/utils/arial-15.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java" afterPath="$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/morse.iml" afterPath="$PROJECT_DIR$/morse.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/tests.iml" afterPath="$PROJECT_DIR$/tests/tests.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="morse.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364283997435" ignored="false" />
+    <file path="/Dummy.txt" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364366169025" ignored="false" />
     <file path="/a.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364202608973" ignored="false" />
     <file path="/strings.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1362977473293" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1362977486714" ignored="false" />
-    <file path="/fragment.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1362977562282" ignored="false" />
+    <file path="/fragment.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364366547830" ignored="false" />
     <file path="$USER_HOME$/android1/res/values/strings.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364187374482" ignored="false" />
     <file path="$USER_HOME$/android1/AndroidManifest.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364187374482" ignored="false" />
-    <file path="$USER_HOME$/android1/src/com/example/android1/MyActivity.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364187374879" ignored="false" />
+    <file path="$USER_HOME$/android1/src/com/example/android1/MyActivity.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364352259976" ignored="false" />
     <file path="$USER_HOME$/android1/res/layout/main.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364187374879" ignored="false" />
     <file path="$USER_HOME$/android1/build.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364187374879" ignored="false" />
     <file path="$USER_HOME$/android1/tests/src/com/example/android1/MyActivityTest.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364187438252" ignored="false" />
     <file path="$USER_HOME$/android1/tests/build.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364187392557" ignored="false" />
     <file path="$USER_HOME$/android1/tests/AndroidManifest.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364187392557" ignored="false" />
     <file path="/MyActivityTest.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364187422050" ignored="false" />
-    <file path="/MorseReaderTest.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364275539904" ignored="false" />
+    <file path="/MorseReaderTest.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364366493311" ignored="false" />
     <file path="/a.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364202615192" ignored="false" />
     <file path="/Decoder.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364283157369" ignored="false" />
     <file path="/Symbols.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364208544095" ignored="false" />
     <file path="/Symbol.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364208769841" ignored="false" />
-    <file path="/MorseReader.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364275141554" ignored="false" />
+    <file path="/MorseReader.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364286504700" ignored="false" />
     <file path="/latin.txt" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364276410066" ignored="false" />
     <file path="/russian.txt" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364283083862" ignored="false" />
+    <file path="$USER_HOME$/android1/res/layout/user_profile.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364352351249" ignored="false" />
+    <file path="/MyActivity.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364352257755" ignored="false" />
+    <file path="$USER_HOME$/profile/.idea/workspace.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364366680795" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +327,22 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java" line="56" class="com.android.dj.morse.MorseReaderTest" package="com.android.dj.morse">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -112,46 +352,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MorseReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/MorseReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MorseReaderTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MorseReaderTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="37" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+            <state line="55" column="44" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.5770065">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/AndroidManifest.xml">
+      <file leaf-file-name="Spectrogram.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/com/musicg/wave/extension/Spectrogram.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="37" column="32" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="russian.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/raw/russian.txt">
+      <file leaf-file-name="WaveHeader.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/com/musicg/wave/WaveHeader.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="10" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+            <state line="27" column="11" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivityInstrumentationTestCase2.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/bin/android-sdk-linux/sdk/platforms/android-4/android.jar!/android/test/ActivityInstrumentationTestCase2.class">
+      <file leaf-file-name="Wave.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/com/musicg/wave/Wave.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+            <state line="18" column="30" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,46 +391,16 @@
       <file leaf-file-name="Decoder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/Decoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="8" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1185#1193#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/bin/android-sdk-linux/sdk/platforms/android-4/android.jar!/java/lang/String.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="28" selection-start="5686" selection-end="5686" vertical-scroll-proportion="0.0">
+            <state line="13" column="20" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="itu.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/raw/itu.txt">
+      <file leaf-file-name="MorseReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/MorseReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="10" selection-start="0" selection-end="406" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Resources.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/bin/android-sdk-linux/sdk/platforms/android-4/android.jar!/android/content/res/Resources.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="46" selection-start="3654" selection-end="3669" vertical-scroll-proportion="-9.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="R.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen/com/android/dj/morse/R.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="19" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -231,18 +432,18 @@
         <option value="$PROJECT_DIR$/src/com/android/dj/morse/Symbols.java" />
         <option value="$PROJECT_DIR$/src/com/android/dj/morse/Symbol.java" />
         <option value="$PROJECT_DIR$/res/data/latin.txt" />
-        <option value="$PROJECT_DIR$/src/com/android/dj/morse/MorseReader.java" />
-        <option value="$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java" />
         <option value="$PROJECT_DIR$/res/raw/punctuation.txt" />
         <option value="$PROJECT_DIR$/res/raw/latin.txt" />
         <option value="$PROJECT_DIR$/res/raw/russian.txt" />
         <option value="$PROJECT_DIR$/src/com/android/dj/morse/Decoder.java" />
+        <option value="$PROJECT_DIR$/src/com/android/dj/morse/MorseReader.java" />
+        <option value="$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
     <option name="width" value="1857" />
     <option name="height" value="1085" />
   </component>
@@ -253,7 +454,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -336,6 +537,82 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -394,29 +671,91 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javacsv.jar" />
+              <option name="myItemId" value="musicg-1.4.0.1.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musicg-1.4.0.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musicg-1.4.0.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musicg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="194" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="222" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="222" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="205" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/javacsv.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="224" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1133" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1130" />
@@ -429,19 +768,20 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="preferences.sourceCode.Java" />
     <property name="AndroidLayoutSelectedEditor" value="android-designer" />
-    <property name="project.structure.side.proportion" value="0.19310345" />
+    <property name="project.structure.side.proportion" value="0.16783217" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -457,11 +797,13 @@
       <recent name="$PROJECT_DIR$/tests/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/raw" />
+      <recent name="$PROJECT_DIR$/tests/res/raw" />
       <recent name="$PROJECT_DIR$/res" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Tests.MorseReaderTest.testDecoder">
+  <component name="RunManager" selected="Android Tests.tests">
     <configuration default="false" name="MorseReaderTest.testFFT" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
       <module name="tests" />
       <option name="TESTING_TYPE" value="3" />
@@ -498,6 +840,57 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <RunnerSettings RunnerId="AndroidDebugRunner" />
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MorseReaderTest" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
+      <module name="tests" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.android.dj.morse.MorseReaderTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MorseReaderTest.testFFT" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.android.dj.morse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.android.dj.morse" />
+      <option name="MAIN_CLASS_NAME" value="com.android.dj.morse.MorseReaderTest" />
+      <option name="METHOD_NAME" value="testFFT" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -614,25 +1007,32 @@
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
+      <option name="PREFERRED_AVD" value="Android1.6" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android Application.main" />
       <item index="1" class="java.lang.String" itemvalue="Android Tests.tests" />
       <item index="2" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testFFT" />
       <item index="3" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDecoder" />
+      <item index="4" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.MorseReaderTest.testFFT" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDecoder" />
-        <item index="1" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testFFT" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest" />
+        <item index="1" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MorseReaderTest.testFFT" />
+        <item index="3" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest" />
+        <item index="4" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -669,13 +1069,13 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
+    <frame x="65" y="24" width="1857" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31607336" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46925566" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29557714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -685,14 +1085,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19689406" sideWeight="0.30204964" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14975041" sideWeight="0.67098165" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958402" sideWeight="0.67098165" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3613808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14975041" sideWeight="0.5307443" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53505933" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.44875944" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958402" sideWeight="0.67098165" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22296172" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22296172" sideWeight="0.44875944" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -758,113 +1158,99 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+    <entry file="jar://$USER_HOME$/bin/android-sdk-linux/sdk/platforms/android-4/android.jar!/java/nio/FloatBuffer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/bin/android-sdk-linux/sdk/platforms/android-4/android.jar!/junit/framework/Test.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="162" selection-end="162" vertical-scroll-proportion="0.08370536" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/bin/android-sdk-linux/sdk/platforms/android-4/android.jar!/java/lang/CharSequence.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="156" selection-end="156" vertical-scroll-proportion="0.08370536" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/bin/android-sdk-linux/sdk/platforms/android-4/android.jar!/java/util/logging/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="241" selection-end="241" vertical-scroll-proportion="0.20761245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="49" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/android/dj/morse/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/bin/android-sdk-linux/sdk/platforms/android-4/android.jar!/android/content/res/Resources.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="46" selection-start="3654" selection-end="3669" vertical-scroll-proportion="-9.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/bin/android-sdk-linux/sdk/platforms/android-4/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="154" selection-end="154" vertical-scroll-proportion="0.12975779">
-          <folding />
-        </state>
+        <state line="6" column="22" selection-start="160" selection-end="160" vertical-scroll-proportion="0.12437811" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/MorseReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/gdx-0.6.jar!/com/badlogic/gdx/audio/analysis/NativeFFT.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="46" selection-start="233" selection-end="258" vertical-scroll-proportion="0.20761245" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/gdx-0.6.jar!/com/badlogic/gdx/audio/analysis/KissFFT.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="16" selection-start="596" selection-end="596" vertical-scroll-proportion="-10.8" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/com/musicg/dsp/FastFourierTransform.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="33" selection-start="262" selection-end="272" vertical-scroll-proportion="0.1854714" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/com/musicg/dsp/Resampler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="0.11591963" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/com/musicg/api/WhistleApi.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="47" selection-start="217" selection-end="217" vertical-scroll-proportion="0.13910356" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/com/musicg/main/demo/RenderSpectrogramDemo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="272" selection-end="272" vertical-scroll-proportion="0.1854714" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/bin/android-sdk-linux/sdk/platforms/android-4/android.jar!/android/test/InstrumentationTestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="95" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/bin/android-sdk-linux/sdk/platforms/android-4/android.jar!/android/test/ActivityInstrumentationTestCase2.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/raw/itu.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="10" selection-start="0" selection-end="406" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/raw/russian.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="10" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/bin/android-sdk-linux/sdk/platforms/android-4/android.jar!/java/lang/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="28" selection-start="5686" selection-end="5686" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="19" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/Decoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1185#1193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="37" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+        <state line="13" column="20" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/AndroidManifest.xml">
+    <entry file="jar://$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/com/musicg/wave/Wave.class">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="30" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/com/musicg/wave/WaveHeader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="11" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/com/musicg/wave/extension/Spectrogram.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="32" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="44" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.5770065">
           <folding />
         </state>
       </provider>
@@ -926,7 +1312,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.19310345" />
+                <option value="0.16783217" />
               </list>
             </option>
           </splitter-proportions>
@@ -946,11 +1332,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>javacsv</last-edited>
+          <last-edited>musicg-1.4.0.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.19310345" />
+                <option value="0.16783217" />
               </list>
             </option>
           </splitter-proportions>

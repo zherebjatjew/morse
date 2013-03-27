@@ -39,6 +39,7 @@
     <orderEntry type="jdk" jdkName="Android 1.6 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="javacsv" level="project" />
+    <orderEntry type="library" name="musicg-1.4.0.1" level="project" />
   </component>
 </module>
 
