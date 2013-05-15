@@ -21,7 +21,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa3fb4cd-f040-407e-9d59-cad3988634f7" name="Default" comment="Update decoder behavior on partially recognized sequences">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java" afterPath="$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/src/uk/co/labookpages/ReadExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/src/uk/co/labookpages/WriteExample.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/tests.iml" afterPath="$PROJECT_DIR$/tests/tests.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="morse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +42,7 @@
     <file path="$USER_HOME$/android1/tests/build.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364187392557" ignored="false" />
     <file path="$USER_HOME$/android1/tests/AndroidManifest.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364187392557" ignored="false" />
     <file path="/MyActivityTest.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364187422050" ignored="false" />
-    <file path="/MorseReaderTest.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1368600545959" ignored="false" />
+    <file path="/MorseReaderTest.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1368610023057" ignored="false" />
     <file path="/a.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364202615192" ignored="false" />
     <file path="/Decoder.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1368594511824" ignored="false" />
     <file path="/Symbols.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364208544095" ignored="false" />
@@ -61,10 +64,10 @@
     <file path="$USER_HOME$/mirada/Mirada/client-android/PictoPop/src/net/thumbtack/pictopop/filters/PixelFilter.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364982668174" ignored="false" />
     <file path="$USER_HOME$/mirada/Mirada/client-android/PictoPop/src/net/thumbtack/pictopop/filters/PixelUtils.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364981239971" ignored="false" />
     <file path="$USER_HOME$/mirada/Mirada/client-android/PictoPop/src/net/thumbtack/pictopop/filters/BlendFilter.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1364982680043" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1368596194530" ignored="false" />
     <file path="/FrequencyDetector.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1368598226508" ignored="false" />
     <file path="/UnbiasedPISARDetector.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1368607006330" ignored="false" />
     <file path="/WavFile.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1368600796376" ignored="false" />
+    <file path="/FourierFrequencyDetector.java" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1368610366956" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,38 +82,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java" line="84" class="com.android.dj.morse.MorseReaderTest" package="com.android.dj.morse">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java" line="52" class="com.android.dj.morse.MorseReaderTest" package="com.android.dj.morse">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -157,19 +129,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MorseReaderTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MorseReaderTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="26" selection-start="2081" selection-end="2081" vertical-scroll-proportion="0.43644717">
+            <state line="52" column="12" selection-start="1899" selection-end="1899" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadExample.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/src/uk/co/labookpages/ReadExample.java">
+      <file leaf-file-name="FourierFrequencyDetector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/FourierFrequencyDetector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+            <state line="13" column="43" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Complex.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/Complex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="18" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FFT.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/FFT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="35" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.7956318">
               <folding />
             </state>
           </provider>
@@ -178,7 +168,7 @@
       <file leaf-file-name="Decoder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/Decoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="85" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.0">
+            <state line="61" column="56" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1373#1381#0" expanded="true" />
@@ -208,7 +198,7 @@
       <file leaf-file-name="UnbiasedPISARDetector.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/UnbiasedPISARDetector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
+            <state line="50" column="0" selection-start="995" selection-end="1111" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -232,9 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/android/dj/morse/MorseMain.java" />
-        <option value="$PROJECT_DIR$/src/com/android/dj/morse/KissFFT.java" />
-        <option value="$PROJECT_DIR$/src/com/badlogic/gdx/audio/analysis/KissFFT.java" />
         <option value="$PROJECT_DIR$/src/com/android/dj/morse/Symbols.java" />
         <option value="$PROJECT_DIR$/src/com/android/dj/morse/Symbol.java" />
         <option value="$PROJECT_DIR$/res/data/latin.txt" />
@@ -247,7 +234,10 @@
         <option value="$PROJECT_DIR$/tests/src/uk/co/labookpages/WavFile/WavFile.java" />
         <option value="$PROJECT_DIR$/tests/src/uk/co/labookpages/WavFile.java" />
         <option value="$PROJECT_DIR$/src/com/android/dj/morse/UnbiasedPISARDetector.java" />
+        <option value="$PROJECT_DIR$/src/com/android/dj/morse/FFT.java" />
+        <option value="$PROJECT_DIR$/src/com/android/dj/morse/Compex.java" />
         <option value="$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/com/android/dj/morse/FourierFrequencyDetector.java" />
       </list>
     </option>
   </component>
@@ -387,61 +377,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="morse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raw" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -513,26 +449,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Android Tests.MorseReaderTest.testDetector">
-    <configuration default="false" name="MorseReaderTest" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
-      <module name="tests" />
-      <option name="TESTING_TYPE" value="2" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="com.android.dj.morse.MorseReaderTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="MorseReaderTest.testFFT" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -590,6 +506,26 @@
       <option name="TESTING_TYPE" value="3" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="testDecodePartiallyRecognizedSequence" />
+      <option name="CLASS_NAME" value="com.android.dj.morse.MorseReaderTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MorseReaderTest.testFFT2" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
+      <module name="tests" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="testFFT2" />
       <option name="CLASS_NAME" value="com.android.dj.morse.MorseReaderTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
@@ -757,18 +693,18 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Android Application.main" />
       <item index="1" class="java.lang.String" itemvalue="Android Tests.tests" />
-      <item index="2" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MorseReaderTest.testFFT" />
-      <item index="4" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDecoder" />
-      <item index="5" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDecodePartiallyRecognizedSequence" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MorseReaderTest.testFFT" />
+      <item index="3" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDecoder" />
+      <item index="4" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDecodePartiallyRecognizedSequence" />
+      <item index="5" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testFFT2" />
       <item index="6" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDetector" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDetector" />
-        <item index="1" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDetector" />
-        <item index="2" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDecodePartiallyRecognizedSequence" />
-        <item index="3" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDecodePartiallyRecognizedSequence" />
+        <item index="1" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testFFT2" />
+        <item index="2" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDetector" />
+        <item index="3" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDetector" />
         <item index="4" class="java.lang.String" itemvalue="Android Tests.MorseReaderTest.testDecodePartiallyRecognizedSequence" />
       </list>
     </recent_temporary>
@@ -813,7 +749,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26213592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24703345" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -821,11 +757,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.99889076" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15474209" sideWeight="0.7378641" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15474209" sideWeight="0.7529666" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15474209" sideWeight="0.7378641" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15474209" sideWeight="0.7529666" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2729234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.44875944" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958402" sideWeight="0.67098165" order="4" side_tool="false" content_ui="combo" />
@@ -906,32 +842,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/bin/android-sdk-linux/sdk/platforms/android-4/android.jar!/android/test/ActivityInstrumentationTestCase2.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/com/musicg/wave/Wave.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/com/musicg/wave/WaveHeader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="11" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/musicg-1.4.0.1.jar!/com/musicg/wave/extension/Spectrogram.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="32" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -969,26 +879,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/Decoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="85" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1373#1381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/MorseReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="30" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/src/uk/co/labookpages/ReadExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1014,16 +907,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/Complex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="18" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/UnbiasedPISARDetector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
+        <state line="50" column="0" selection-start="995" selection-end="1111" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/guava-14.0.1.jar!/com/google/common/base/Joiner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.09054326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/Decoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="56" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1373#1381#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/src/com/android/dj/morse/MorseReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="26" selection-start="2081" selection-end="2081" vertical-scroll-proportion="0.43644717">
+        <state line="52" column="12" selection-start="1899" selection-end="1899" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/FourierFrequencyDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="43" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/FFT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="35" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.7956318">
           <folding />
         </state>
       </provider>
@@ -1081,7 +1012,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>morse</last-edited>
+          <last-edited>tests</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

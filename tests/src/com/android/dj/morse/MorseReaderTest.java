@@ -1,8 +1,6 @@
 package com.android.dj.morse;
 
 import android.test.ActivityInstrumentationTestCase2;
-import com.musicg.wave.Wave;
-import com.musicg.wave.extension.Spectrogram;
 import uk.co.labookpages.WavFile;
 import uk.co.labookpages.WavFileException;
 
@@ -43,48 +41,19 @@ public class MorseReaderTest extends ActivityInstrumentationTestCase2<MorseReade
 		InputStream reader = getActivity().getResources().openRawResource(R.raw.sound_sample_sin_1000_1s);
 		try {
 			WavFile wFile = WavFile.openWavStream(reader);
-			int nSamples = (int) (2*wFile.getSampleRate()/1000);
+			int nSamples = 256;
 			short[] samples = new short[nSamples];
 			wFile.readFrames(samples, nSamples);
-			FrequencyDetector pisar = new UnbiasedPISARDetector();
-			pisar.init(samples);
-			double frequency = pisar.getFrequency();
-			double amplitude = pisar.getAmplitude();
-			assertEquals(1000, frequency, 100);
+//			FrequencyDetector detector = new UnbiasedPISARDetector();
+			FrequencyDetector detector = new FourierFrequencyDetector();
+			detector.init(samples);
+			double frequency = detector.getFrequency()*wFile.getSampleRate();
+			double amplitude = detector.getAmplitude();
+			assertEquals(1000, frequency, 50);
+			assertTrue(amplitude > 2000000);
 		} finally {
-			try {
-				reader.close();
-			} catch (IOException e) {
-				e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-			}
+			reader.close();
 		}
-	}
-
-	public void testFFT() {
-		final int numSamples = 256;
-		// Read wav to buffer
-		byte[] buffer = new byte[numSamples * 2];
-		InputStream reader = getActivity().getResources().openRawResource(R.raw.sound_sample_sin_1000_1s);
-		/*
-		try {
-			int read = reader.read(buffer, 0, numSamples * 2);
-			assertEquals("WAV sample is too short", numSamples * 2, read);
-		} catch (IOException e) {
-			e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-		} finally {
-			try {
-				reader.close();
-			} catch (IOException e) {
-				e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-			}
-		}
-		*/
-		Wave wave = new Wave(reader);
-		Spectrogram spectrogram = new Spectrogram(wave);
-		double[][] data = spectrogram.getNormalizedSpectrogramData();
-		assertEquals(2, data.length);
-		assertEquals(numSamples, data[0].length);
-		assertEquals(numSamples, data[1].length);
 	}
 
 }

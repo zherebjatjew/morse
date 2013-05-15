@@ -25,7 +25,15 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="musicg-1.4.0.1" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../libs/guava-14.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
 
