@@ -1,5 +1,11 @@
 package com.android.dj.morse;
 
+import android.content.Context;
+import android.content.res.Resources;
+import android.util.Log;
+import com.csvreader.CsvReader;
+import com.google.common.base.Joiner;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.Charset;
@@ -9,21 +15,20 @@ import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
 
-import android.content.Context;
-import android.content.res.Resources;
-import com.csvreader.CsvReader;
-
 /**
+ * Decode sequences of dashes, dots and spaces to plain text
+ *
  * User: dzherebjatjew@thumbtack.net
  * Date: 3/25/13
  */
 public class Decoder {
+	private static final String TAG = "Decoder";
 
 	public Decoder(Context context) {
 		loadTables(context.getResources());
 	}
 
-	String decode(String code) {
+	public String decode(String code) {
 		String character = "";
 		String result = "";
 		for (int i = 0; i < code.length(); i++) {
@@ -40,7 +45,7 @@ public class Decoder {
 		return result;
 	}
 
-	String decodeCharacter(String character) {
+	private String decodeCharacter(String character) {
 		if ("".equals(character)) {
 			return "";
 		}
@@ -49,11 +54,12 @@ public class Decoder {
 			result = error(character, "?");
 			if (character.contains("?")) {
 				List<String> options = new ArrayList<String>();
+				Log.i(TAG, "Unknown sequence " + character);
 				guess(character, options);
 				if (options.size() == 1) {
 					result = error(character, options.get(0));
 				} else {
-					result = error(character, "?");
+					result = error(character + "=" + Joiner.on("|").join(options), "?");
 				}
 			}
 		}
@@ -65,6 +71,7 @@ public class Decoder {
 		if (pos == -1) {
 			String str = table.get(character);
 			if (str != null) {
+				Log.i(TAG, "...could be treated as " + character + ":" + str);
 				result.add(str);
 			}
 		} else {
@@ -75,7 +82,7 @@ public class Decoder {
 
 	private String error(String character, String subst) {
 		String result = subst;
-		if (verbose) {
+		if (getVerbose()) {
 			result += "$";
 			result += character;
 			result += "$";
@@ -98,8 +105,7 @@ public class Decoder {
 				reader.close();
 			}
 		} catch (IOException e) {
-			logger.severe("Error reading file");
-			e.printStackTrace();
+			Log.e(TAG, "Error reading file", e);
 		} finally {
 			try {
 				in.close();

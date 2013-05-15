@@ -3,7 +3,6 @@ package com.android.dj.morse;
 import android.test.ActivityInstrumentationTestCase2;
 import com.musicg.wave.Wave;
 import com.musicg.wave.extension.Spectrogram;
-import org.junit.Test;
 
 import java.io.InputStream;
 
@@ -23,15 +22,20 @@ public class MorseReaderTest extends ActivityInstrumentationTestCase2<MorseReade
 		super("com.android.dj.morse", MorseReader.class);
 	}
 
-	@Test
-	public void testDecoder() {
+	public void testDecodeFullyRecognizedSequence() {
 		Decoder decoder = getActivity().getDecoder();
 		assertNotNull(decoder);
 		assertEquals("A", decoder.decode(".-"));
 		assertEquals("SOS", decoder.decode("... --- ..."));
 	}
 
-	@Test
+	public void testDecodePartiallyRecognizedSequence() {
+		Decoder decoder = getActivity().getDecoder();
+		decoder.setVerbose(true);
+		assertEquals("?$?=E|T$", decoder.decode("?"));
+		assertEquals(",$--..-?$", decoder.decode("--..-?"));
+	}
+
 	public void testFFT() {
 		final int numSamples = 256;
 		// Read wav to buffer
