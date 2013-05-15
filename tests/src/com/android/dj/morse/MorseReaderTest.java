@@ -3,7 +3,10 @@ package com.android.dj.morse;
 import android.test.ActivityInstrumentationTestCase2;
 import com.musicg.wave.Wave;
 import com.musicg.wave.extension.Spectrogram;
+import uk.co.labookpages.WavFile;
+import uk.co.labookpages.WavFileException;
 
+import java.io.IOException;
 import java.io.InputStream;
 
 /**
@@ -34,6 +37,27 @@ public class MorseReaderTest extends ActivityInstrumentationTestCase2<MorseReade
 		decoder.setVerbose(true);
 		assertEquals("?$?=E|T$", decoder.decode("?"));
 		assertEquals(",$--..-?$", decoder.decode("--..-?"));
+	}
+
+	public void testDetector() throws IOException, WavFileException {
+		InputStream reader = getActivity().getResources().openRawResource(R.raw.sound_sample_sin_1000_1s);
+		try {
+			WavFile wFile = WavFile.openWavStream(reader);
+			int nSamples = (int) (2*wFile.getSampleRate()/1000);
+			short[] samples = new short[nSamples];
+			wFile.readFrames(samples, nSamples);
+			FrequencyDetector pisar = new UnbiasedPISARDetector();
+			pisar.init(samples);
+			double frequency = pisar.getFrequency();
+			double amplitude = pisar.getAmplitude();
+			assertEquals(1000, frequency, 100);
+		} finally {
+			try {
+				reader.close();
+			} catch (IOException e) {
+				e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+			}
+		}
 	}
 
 	public void testFFT() {
