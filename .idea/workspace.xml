@@ -20,12 +20,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa3fb4cd-f040-407e-9d59-cad3988634f7" name="Default" comment="Update decoder behavior on partially recognized sequences">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/src/uk/co/labookpages/ReadExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/src/uk/co/labookpages/WriteExample.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/tests.iml" afterPath="$PROJECT_DIR$/tests/tests.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="fa3fb4cd-f040-407e-9d59-cad3988634f7" name="Default" comment="Update decoder behavior on partially recognized sequences" />
     <ignored path="morse.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="fa3fb4cd-f040-407e-9d59-cad3988634f7" time="1368594248045" ignored="false" />
@@ -138,28 +133,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FourierFrequencyDetector.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FourierFrequencyDetector.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/FourierFrequencyDetector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="43" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Complex.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/Complex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="18" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FFT.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/FFT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="35" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.7956318">
+            <state line="22" column="41" selection-start="550" selection-end="550" vertical-scroll-proportion="0.49475262">
               <folding />
             </state>
           </provider>
@@ -743,7 +720,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -761,7 +738,7 @@
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15474209" sideWeight="0.7529666" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15474209" sideWeight="0.7529666" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2729234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.44875944" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958402" sideWeight="0.67098165" order="4" side_tool="false" content_ui="combo" />
@@ -907,13 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/Complex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="18" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/UnbiasedPISARDetector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="0" selection-start="995" selection-end="1111" vertical-scroll-proportion="0.0">
@@ -945,16 +915,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/FourierFrequencyDetector.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/Complex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="43" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
+        <state line="70" column="19" selection-start="2263" selection-end="2263" vertical-scroll-proportion="1.6380656">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/FFT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="35" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.7956318">
+        <state line="132" column="75" selection-start="3526" selection-end="3526" vertical-scroll-proportion="0.35101405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/dj/morse/FourierFrequencyDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="41" selection-start="550" selection-end="550" vertical-scroll-proportion="0.49475262">
           <folding />
         </state>
       </provider>
