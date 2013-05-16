@@ -1,6 +1,7 @@
-package com.android.dj.morse;
+package com.android.dj.morse.test;
 
 import android.test.ActivityInstrumentationTestCase2;
+import com.android.dj.morse.*;
 import uk.co.labookpages.WavFile;
 import uk.co.labookpages.WavFileException;
 
@@ -14,7 +15,7 @@ import java.io.InputStream;
  * <p/>
  * To run this test, you can type:
  * adb shell am instrument -w \
- * -e class com.android.dj.morse.MorseReaderTest \
+ * -e class com.android.dj.morse.test.MorseReaderTest \
  * com.android.dj.morse.tests/android.test.InstrumentationTestRunner
  */
 public class MorseReaderTest extends ActivityInstrumentationTestCase2<MorseReader> {

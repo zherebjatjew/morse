@@ -1,5 +1,6 @@
-package com.android.dj.morse;
+package edu.princeton.cs;
 
+// http://introcs.cs.princeton.edu/java/97data/FFT.java
 /*************************************************************************
  *  Compilation:  javac FFT.java
  *  Execution:    java FFT N

@@ -15,7 +15,7 @@ public class MorseReader extends Activity
         setContentView(R.layout.main);
     }
 
-	Decoder getDecoder() {
+	public Decoder getDecoder() {
 		if (decoder == null) {
 			decoder = new Decoder(this);
 		}

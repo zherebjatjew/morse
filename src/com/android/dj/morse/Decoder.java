@@ -116,9 +116,9 @@ public class Decoder {
 		}
 	}
 
-	boolean getVerbose() { return verbose; }
+	public boolean getVerbose() { return verbose; }
 
-	void setVerbose(boolean verbose) { this.verbose = verbose; }
+	public void setVerbose(boolean verbose) { this.verbose = verbose; }
 
 	private boolean verbose = false;
 

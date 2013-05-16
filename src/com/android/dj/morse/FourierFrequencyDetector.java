@@ -1,5 +1,8 @@
 package com.android.dj.morse;
 
+import edu.princeton.cs.Complex;
+import edu.princeton.cs.FFT;
+
 /**
  * User: dzherebjatjew@thumbtack.net
  * Date: 5/15/13

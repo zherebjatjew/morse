@@ -1,5 +1,6 @@
-package com.android.dj.morse;
+package edu.princeton.cs;
 
+// http://introcs.cs.princeton.edu/java/97data/Complex.java.html
 /*************************************************************************
  *  Compilation:  javac Complex.java
  *  Execution:    java Complex
