@@ -13,4 +13,9 @@ public interface FrequencyDetector {
 	 */
 	public double getFrequency();
 	public double getAmplitude();
+
+	/**
+	 * @return confidence of calculated frequency
+	 */
+	public double getConfidence();
 }

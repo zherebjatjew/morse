@@ -43,6 +43,11 @@ public class UnbiasedPISARDetector implements FrequencyDetector {
 		return Math.sqrt(2*Math.abs(r1/cosOmega));
 	}
 
+	@Override
+	public double getConfidence() {
+		return 0.5;
+	}
+
 	private void assertInitialized() {
 		if (!initialized) {
 			throw new RuntimeException("Call init before");

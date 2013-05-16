@@ -10,6 +10,7 @@ import edu.princeton.cs.FFT;
 public class FourierFrequencyDetector implements FrequencyDetector {
 	private boolean initialized = false;
 	private double freq = 0;
+	private double conf = 0;
 	private double amp = 0;
 
 	@Override
@@ -24,19 +25,24 @@ public class FourierFrequencyDetector implements FrequencyDetector {
 		Complex[] y = FFT.fft(x);
 
 		int idx = 0;
-		double v = 0;
+		double min = y[0].abs();
+		double max = 0;
 		// do not look at high frequencies 'cause they are unreliable
 		int lim = n*4/5;
 		for (int i = 0; i < lim; i++) {
 			double m = y[i].abs();
-			if (m >= v) {
+			if (m >= max) {
 				idx = i;
-				v = m;
+				max = m;
+			}
+			if (m < min) {
+				min = m;
 			}
 		}
 		initialized = true;
 		freq = ((double)idx)/n;
-		amp = v;
+		conf = (max - min)/max;
+		amp = max;
 	}
 
 	@Override
@@ -49,6 +55,11 @@ public class FourierFrequencyDetector implements FrequencyDetector {
 	public double getAmplitude() {
 		assertInitialized();
 		return amp;
+	}
+
+	@Override
+	public double getConfidence() {
+		return conf;
 	}
 
 	private void assertInitialized() {
