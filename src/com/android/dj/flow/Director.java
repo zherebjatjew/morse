@@ -1,6 +1,7 @@
 package com.android.dj.flow;
 
 import android.util.Log;
+import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ListMultimap;
 import org.atteo.evo.classindex.ClassIndex;
 
@@ -17,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 public class Director {
 	private static final String TAG = "Director";
 
-	private ListMultimap<Class, Class> listeners;
+	private ListMultimap<Class, Class> listeners = ArrayListMultimap.create();
 	private ThreadPoolExecutor pool;
 
 	public Director(int maxThreads) {
