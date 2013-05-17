@@ -1,5 +1,6 @@
 package com.android.dj.morse.flow;
 
+import android.util.Log;
 import com.android.dj.flow.Director;
 
 import java.util.ArrayList;
@@ -15,6 +16,7 @@ import java.util.List;
  */
 public class SampleAggregator {
 	private static final int QUEUE_LENGTH = 10;
+	private static final String TAG = "SampleAggregator";
 	private final List<SignalChangedMessage> samples = new ArrayList<SignalChangedMessage>();
 
 	public void aggregate(FftMessage message, Director director) {
@@ -40,6 +42,8 @@ public class SampleAggregator {
 	}
 
 	private void combineSamples(Director director) {
+		// Do not send to fast, because there is a risk to send incomplete signal
+		if (samples.size() < QUEUE_LENGTH) return;
 		boolean complete = true;
 		for (int i = 1; i < samples.size(); i++) {
 			SignalChangedMessage m1 = samples.get(i-1);
@@ -51,6 +55,7 @@ public class SampleAggregator {
 					i--;
 				} else {
 					if (complete) {
+						Log.v(TAG, "" + m1.timestamp + " - " + m1.timestamp + m1.duration + " on");
 						director.post(m1);
 					} else {
 						complete = true;

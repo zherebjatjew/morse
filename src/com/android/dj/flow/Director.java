@@ -60,6 +60,10 @@ public class Director {
 	}
 
 	public void terminate() {
-		pool.shutdown();
+		try {
+			pool.awaitTermination(5, TimeUnit.SECONDS);
+		} catch (InterruptedException e) {
+			Log.e(TAG, "Failed to terminate", e);
+		}
 	}
 }
