@@ -48,7 +48,7 @@ public class FftDecoder implements Runnable {
 			} else if (m > 0.5) {
 				FftMessage.Point point = new FftMessage.Point();
 				point.amplitude = (int)m;
-				point.frequency = (int)((double)i* Constants.SAMPLING_RATE/n);
+				point.frequency = i* Constants.SAMPLING_RATE/n;
 				meaningPoints.add(point);
 			}
 		}
@@ -58,6 +58,6 @@ public class FftDecoder implements Runnable {
 				meaningPoints.remove(i);
 			}
 		}
-		director.post(new FftMessage(meaningPoints));
+		director.post(new FftMessage(message.timestamp, meaningPoints));
 	}
 }

@@ -39,6 +39,7 @@ public class CarrierDetector implements Runnable {
 	}
 
 	private static void updateCarrier(int frequency) {
+		if (frequency == 0) return;
 		int val = (frequency + carrier)/2;
 		if (val != carrier) {
 			synchronized (carrier) {
